@@ -1,4 +1,4 @@
-import {getCustomerById, deleteCustomerById, createCustomer} from "../../../src/customers"
+import {getCustomerById, deleteCustomerById, createCustomer} from "../customers"
 
 export default async function handler(req, res) {
     const customerId = req.query.customerId;
